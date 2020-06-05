@@ -1,6 +1,6 @@
 {
     "name": "scorpiotek/admin-menu-hider",
-    "description": "Meh",
+    "description": "This is a simple developer utility aimed to make the process of removing items in the WP Admin area easier than installing a new plugin.",
     "type": "library",
     "require": {
         "php": "7.3.11"
@@ -11,5 +11,11 @@
             "email": "csaborio@scorpiotek.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "ScorpioTek\\WordPress\\": "src/",
+            "Cows\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
