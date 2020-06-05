@@ -1,0 +1,15 @@
+{
+    "name": "scorpiotek/admin-menu-hider",
+    "description": "Meh",
+    "type": "library",
+    "require": {
+        "php": "7.3.11"
+    },
+    "authors": [
+        {
+            "name": "Christian Saborio",
+            "email": "csaborio@scorpiotek.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
